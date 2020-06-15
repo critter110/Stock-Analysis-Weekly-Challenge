@@ -1,1 +1,3 @@
 # Stock-Analysis-Weekly-Challenge
+### Challenge
+In this weekly challenge we were tasked with refactoring code that analyzed stock data to make it more efficient and user friendly. Instead of looping through the entire sheet of data for each of the individual stocks, we only looped through the data sheet once and took the information that we needed in one pass. This was done by creating arrays for each piece of information, and the indicies of the arrays corresponded to the different stocks. This method is more efficent than our first method, and it allows Steve to easily add other stocks in the future. The challenge sub-routine is at the bottom of the VBA sheet.
